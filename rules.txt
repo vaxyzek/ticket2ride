@@ -1,0 +1,113 @@
+Cities (22): Amsterdam, Ankara (e), Athens, Barcelona, Berlin, Brest (w), Bucharest, Copenhagen, Dublin (w), Kiev, London, Madrid (w), Moscow (e), Paris, Riga, Rome, Rostov (e), Sarajevo, Stockholm, Vienna, Warsaw, Zurich,
+
+Roads (67):
+Amsterdam, Berlin,     1, Bk
+Amsterdam, Berlin,     1, Gr
+Amsterdam, Copenhagen, 2, Rd
+Amsterdam, London,     1, Wh
+Amsterdam, London,     1, Bk
+Amsterdam, Paris,      1, Bl
+Ankara,    Athens,     2, Gr
+Ankara,    Athens,     2, Rd
+Ankara,    Bucharest,  2, Bl
+Ankara,    Bucharest,  2, Bk
+Ankara,    Rostov,     3, Bk
+Ankara,    Rostov,     3, Wh
+Athens,    Bucharest,  2, Yl
+Athens,    Rome,       3, Bl
+Athens,    Rome,       3, Wh
+Athens,    Sarajevo,   1, Rd
+Barcelona, Madrid,     1, Rd
+Barcelona, Madrid,     1, Wh
+Barcelona, Paris,      2, Wh
+Barcelona, Rome,       2, Bk
+Barcelona, Rome,       2, Yl
+Berlin,    Copenhagen, 1, Gr
+Berlin,    Copenhagen, 1, Wh
+Berlin,    Paris,      3, Yl
+Berlin,    Paris,      3, Wh
+Berlin,    Vienna,     1, Rd
+Berlin,    Vienna,     1, Yl
+Berlin,    Warsaw,     2, Gr
+Berlin,    Warsaw,     2, Bl
+Brest,     Dublin,     2, Bl
+Brest,     London,     2, Rd
+Brest,     Madrid,     3, Gr
+Brest,     Paris,      2, Yl
+Bucharest, Kiev,       2, Rd
+Bucharest, Rostov,     2, Gr
+Bucharest, Rostov,     2, Rd
+Bucharest, Sarajevo,   1, Gr
+Copenhagen,Stockholm,  1, Bl
+Copenhagen,Stockholm,  1, Bk
+Dublin,    London,     1, Gr
+Dublin,    London,     1, Yl
+Kiev,      Moscow,     2, Gr
+Kiev,      Rostov,     2, Bk
+Kiev,      Vienna,     3, Wh
+Kiew,      Warsaw,     1, Yl
+London,    Paris,      2, Bk
+London,    Paris,      2, Gr
+Madrid,    Paris,      3, Bl
+Madrid,    Paris,      3, Rd
+Moscow,    Riga,       3, Gr
+Moscow,    Riga,       3, Yl
+Moscow,    Rostov,     2, Bl
+Moscow,    Rostov,     2, Yl
+Moscow,    Warsaw,     3, Bk
+Moscow,    Warsaw,     3, Rd
+Paris,     Zurich,     1, Bl
+Paris,     Zurich,     1, Wh
+Riga,      Stockholm,  1, Rd
+Riga,      Stockholm,  1, Yl
+Riga,      Warsaw,     1, Wh
+Rome,      Sarajevo,   2, Bk
+Rome,      Vienna,     2, Bl
+Rome,      Zurich,     1, Gr
+Sarajevo,  Vienna,     2, Gr
+Vienna,    Warsaw,     1, Bk
+Vienna,    Zurich,     2, Bk
+Vienna,    Zurich,     2, Rd
+
+Tickets (32):
+Ankara,    Moscow
+Ankara,    Rome
+Ankara,    Vienna
+Amsterdam, Brest
+Amsterdam, Bucharest
+Amsterdam, Stockholm
+Athens,    Berlin
+Athens,    Paris
+Athens,    Rostov
+Barcelona, London
+Berlin,    Brest
+Berlin,    Dublin
+Berlin,    Moscow
+Berlin,    Zurich
+Bucharest, Moscow
+Bucharest, Rome
+Copenhagen, Kiev
+Copenhagen, Paris
+Dublin,     Madrid
+Dublin,     Zurich
+London,     Rome
+London,     Stockholm
+London,     Warsaw
+Madrid,     Paris
+Madrid,     Rome
+Moscow,     Riga
+Paris,      Vienna
+Paris,      Warsaw
+Riga,       Rome
+Sarajevo,   Warsaw
+Sarajevo,   Zurich
+Stockholm,  Vienna
+
+Train cards (72):
+ 10 - each color
+ 12 - rainbow
+
+Agents:
+ Fully random (alpha parameter)
+ Route finder
+
