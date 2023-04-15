@@ -63,6 +63,7 @@ def ticket_completed(roads, ticket, player_color):
   # TODO
   # TODO
   # TODO
+  print("Check ticket", ticket)
   return False
 
 def play(agents):
@@ -161,7 +162,7 @@ def play(agents):
         # TODO: Handle east-west tickets
         updated_tickets = []
         for ticket in agent_state["tickets"]:
-          if ticket_completed(ticket, roads, agent_color):
+          if ticket_completed(roads, ticket, agent_color):
             agent_state["completed_tickets"] += 1
             discard_tickets.append(ticket)
           else:
