@@ -63,7 +63,6 @@ def ticket_completed(roads, ticket, player_color):
   # TODO
   # TODO
   # TODO
-  print("Check ticket", ticket)
   return False
 
 def play(agents):
