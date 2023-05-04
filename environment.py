@@ -60,9 +60,32 @@ def draw_ticket(tickets, discard_tickets):
   return tickets.pop()
 
 def ticket_completed(roads, ticket, player_color):
-  # TODO
-  # TODO
-  # TODO
+  graph = {}
+  for road in roads:
+      start = road['start']
+      end = road['finish']
+      if road["built"] == True:
+        if road["builder_color"] == player_color:
+          if start not in graph:
+              graph[start] = set()
+          if end not in graph:
+              graph[end] = set()
+          graph[start].add(end)
+          graph[end].add(start)
+  visited = set()
+  if ticket[0] in graph.keys():
+    stack = [ticket[0]]
+  else:
+    return False
+  print(stack,graph)
+  while stack:
+      node = stack.pop()
+      if node == ticket[1]:
+          return True
+      if node not in visited:
+          visited.add(node)
+          
+          stack.extend(graph[node] - visited)
   return False
 
 def play(agents):
